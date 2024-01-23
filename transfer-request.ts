@@ -9,7 +9,7 @@ const createPaymentLink = async () => {
 
     // Customer details upon checkout
     const recipient = new PublicKey('4hvFcm1EHpn5zgM9ZU59dYd1sucjGPgGGNWdunHMnYYa');
-    const amount = new BigNumber(20);
+    const amount =  new BigNumber(100);
     const reference = new Keypair().publicKey;
     const label = 'Naija Jollof';
     const message = 'Naija Jollof Restaurant - your order - #001234';

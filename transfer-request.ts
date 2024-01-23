@@ -23,8 +23,13 @@ const createPaymentLink = async () => {
     return url;
 };
 
-//calling createPaymentLink() to generate new payment link
+//invoking createPaymentLink function to generate new payment link
 createPaymentLink();
+
+//example of link generated based on the recipient/merchant public address and
+//the customer details upon checkout
+
+//Payment Link: solana:4hvFcm1EHpn5zgM9ZU59dYd1sucjGPgGGNWdunHMnYYa?amount=100&reference=BhtjregtXxdv6KZ7ZRQtRhkfjLHRfbq2Dc5EzjxZxuXD&label=Naija+Jollof&message=Naija+Jollof+Restaurant+-+your+order+-+%23001234&memo=NJ%23000
 
 
 
